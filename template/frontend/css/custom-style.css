@@ -47,6 +47,7 @@ footer .top_footer {
 footer .bottom_footer {
     background-color: #fef102;
 }
+
 .about_app_section .about_img::before {
     left: 17%;
     top: 50%;
@@ -55,24 +56,14 @@ footer .bottom_footer {
     height: 300px;
 }
 .android-apk-direct-download {
-    display: block;
-    width: 20%;
+    width: 35%;
     border: 1px solid grey;
     border-radius: 10px;
     box-shadow: 2px 2px 8px grey;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
 }
 .android-apk-direct-download:hover {
-    transition: ease 0.5s;
-    width: 21%; 
-}
-.direct-download-icon {
-    width: 30%;
-    border: 1px solid grey;
-    border-radius: 10px;
-    box-shadow: 2px 2px 8px grey;
+    transition: ease 0.3s;
+    width: 36%;
 }
 .app-store {
     width: 29%;
@@ -96,37 +87,7 @@ footer .bottom_footer {
     border-radius: 10px;
     box-shadow: 2px 2px 8px grey;
 }
-.download-section {
-    margin-bottom: 50px;
-}
-.section_title h2 {
-    font-size: 30px;
-    font-weight: 700;
-}
-.android-title {
-    color: #0da141 !important;
-}
-.ios-title {
-    color: #165a93 !important;
-}
-.android-tv-title {
-    color: #a34a0b !important;
-}
 @media screen and (max-width: 600px) {
-    .android-apk-direct-download {
-        width: 35%;
-        margin-top: 30px;
-    }
-    .android-apk-direct-download:hover {
-        width: 35%;
-        margin-top: 30px;
-    }
-    .direct-download-icon {
-        width: 40%;
-    }
-    .about_app_section .about_img {
-        display: none;
-    }
     .about_app_section .about_img::before {
         display: none;
     }
@@ -141,12 +102,5 @@ footer .bottom_footer {
     }
     .footer-download {
         width: 40%;
-    }
-    .anim_line {
-        display: none;
-    }
-    .section_title h2 {
-        font-size: 18px !important;
-        font-weight: 600 !important;
     }
 }
