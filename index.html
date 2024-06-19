@@ -6,22 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue TV PRO</title>
-    <link rel="shortcut icon" href="/templates/frontend/images/site/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="templates/frontend/images/site/favicon.png" type="image/x-icon">
     
     <!-- icofont-css-link -->
-    <link rel="stylesheet" href="/template/css/icofont.min.css">
+    <link rel="stylesheet" href="template/css/icofont.min.css">
     <!-- Owl-Carosal-Style-link -->
-    <link rel="stylesheet" href="/template/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="template/css/owl.carousel.min.css">
     <!-- Bootstrap-Style-link -->
-    <link rel="stylesheet" href="/template/css/bootstrap.min.css">
+    <link rel="stylesheet" href="template/css/bootstrap.min.css">
     <!-- Aos-Style-link -->
-    <link rel="stylesheet" href="/template/css/aos.css">
+    <link rel="stylesheet" href="template/css/aos.css">
     <!-- Coustome-Style-link -->									
-    <link rel="stylesheet" href="/template/css/style.css">
+    <link rel="stylesheet" href="template/css/style.css">
     <!-- Responsive-Style-link -->
-    <link rel="stylesheet" href="/template/css/responsive.css">		
+    <link rel="stylesheet" href="template/css/responsive.css">		
     <!-- Favicon -->						
-    <link rel="stylesheet" href="/template/css/custom-style.css">
+    <link rel="stylesheet" href="template/css/custom-style.css">
 </head>
 
 <body>
@@ -67,20 +67,142 @@
             <!-- navigation end -->
         </div>
         </header>
+          <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="card">
+            <div class="card-body text-center">
+                <div class="text-right cross"> x </div>
+                <img class="popup img-fluid" src="https://bluetvapp.com/image/vipjapan/AddText_06-18-02.44.58.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .modal-dialog {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .popup {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .cross {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    @media (max-width: 767.98px) {
+        .modal-dialog {
+            margin: 0 auto;
+            max-width: 90%;
+        }
+    }
+</style>
+      <style>
+        .anim_line {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .anim_line span {
+            display: block;
+            position: absolute;
+            animation: fall 2s linear infinite;
+        }
+
+        @keyframes fall {
+            0% {
+                top: -100px;
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                top: 100vh;
+                opacity: 0;
+            }
+        }
+
+        .anim_line span:nth-child(1) {
+            left: 10%;
+            animation-delay: 0s;
+        }
+        .anim_line span:nth-child(2) {
+            left: 20%;
+            animation-delay: 0.2s;
+        }
+        .anim_line span:nth-child(3) {
+            left: 30%;
+            animation-delay: 0.4s;
+        }
+        .anim_line span:nth-child(4) {
+            left: 40%;
+            animation-delay: 0.6s;
+        }
+        .anim_line span:nth-child(5) {
+            left: 50%;
+            animation-delay: 0.8s;
+        }
+        .anim_line span:nth-child(6) {
+            left: 60%;
+            animation-delay: 1s;
+        }
+        .anim_line span:nth-child(7) {
+            left: 70%;
+            animation-delay: 1.2s;
+        }
+        .anim_line span:nth-child(8) {
+            left: 80%;
+            animation-delay: 1.4s;
+        }
+        .anim_line span:nth-child(9) {
+            left: 90%;
+            animation-delay: 1.6s;
+        }
+    </style>
+
         <section class="banner_section">
             <div class="container">
                 <div class="anim_line">
-                    <span><img src="anim_line.png" alt="anim_line"></span>
-                    <span><img src="anim_line.png" alt="anim_line"></span>
-                    <span><img src="anim_line.png" alt="anim_line"></span>
-                    <span><img src="anim_line.png" alt="anim_line"></span>
-                    <span><img src="anim_line.png" alt="anim_line"></span>
-                    <span><img src="anim_line.png" alt="anim_line"></span>
-                    <span><img src="anim_line.png" alt="anim_line"></span>
-                    <span><img src="anim_line.png" alt="anim_line"></span>
-                    <span><img src="anim_line.png" alt="anim_line"></span>
+                    <span><img src="templates/frontend/images/anim_line.png" alt="anim_line"></span>
+                    <span><img src="templates/frontend/images/anim_line.png" alt="anim_line"></span>
+                    <span><img src="templates/frontend/images/anim_line.png" alt="anim_line"></span>
+                    <span><img src="templates/frontend/images/anim_line.png" alt="anim_line"></span>
+                    <span><img src="templates/frontend/images/anim_line.png" alt="anim_line"></span>
+                    <span><img src="templates/frontend/images/anim_line.png" alt="anim_line"></span>
+                    <span><img src="templates/frontend/images/anim_line.png" alt="anim_line"></span>
+                    <span><img src="templates/frontend/images/anim_line.png" alt="anim_line"></span>
+                    <span><img src="templates/frontend/images/anim_line.png" alt="anim_line"></span>
                 </div>
+<style>
+   .android-apk-direct-download {
+            width: 150px;
+            animation: shake 0.5s ease-in-out 2s 6;
+        }
 
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            50% { transform: translateX(5px); }
+            75% { transform: translateX(-5px); }
+        }
+    </style>
                 <div class="row">
                     <div class="col-lg-6 col-md-12"  data-aos="fade-right" data-aos-duration="1500">
                         <div class="banner_text">
@@ -90,8 +212,8 @@
                         </div>
 
                         <div class="flex" style="margin-top: 50px;">
-                            <a class="justify-between" href="https://raw.githubusercontent.com/btvplus/app/main/Blue_TV_PRO_20-2.apk">
-                                <img class="android-apk-direct-download" src="/template/apk-direct-download.png" alt="">
+                            <a class="justify-between" href="https://bluetvapp.com/files/Blue_TV_PRO_20-2.apk">
+                                <img class="android-apk-direct-download" src="template/apk-direct-download.png" alt="">
                             </a>
                         </div>
                     </div>
@@ -103,12 +225,12 @@
                             <div id="frmae_slider" class="owl-carousel owl-theme">
                                 <div class="item">
                                     <div class="slider_img">
-                                        <img src="/template/images/ph1.png" alt="image" >
+                                        <img src="template/images/ph1.png" alt="image" >
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="slider_img">
-                                        <img src="/template/images/ph2.png" alt="image" >
+                                        <img src="template/images/ph2.png" alt="image" >
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +267,7 @@
                     </div>
                     <!-- feature image -->
                     <div class="feature_img" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-                        <img src="/template/images/passwort.png" alt="image" >
+                        <img src="template/images/passwort.png" alt="image" >
                     </div>
                 </div>
             </div>
@@ -177,15 +299,20 @@
     </div>
     
     <!-- Jquery-js-Link -->
-    <script data-cfasync="false" src="/template/frontend/email-decode.min.js"></script>
-    <script src="/template/js/jquery.js"></script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="template/js/jquery.js"></script>
     <!-- owl-js-Link -->
-    <script src="/template/js/owl.carousel.min.js"></script>
+    <script src="template/js/owl.carousel.min.js"></script>
     <!-- bootstrap-js-Link -->
-    <script src="/template/js/bootstrap.min.js"></script>
+    <script src="template/js/bootstrap.min.js"></script>
     <!-- aos-js-Link -->
-    <script src="/template/js/aos.js"></script>
+    <script src="template/js/aos.js"></script>
     <!-- main-js-Link -->
-    <script src="/template/js/main.js"></script>   
+    <script src="template/js/main.js"></script>   
+<script>
+    $(document).ready(function(){
+        $("#myModal").modal('hide');
+    });
+</script>
 </body>
 </html>
